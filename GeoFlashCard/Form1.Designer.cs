@@ -30,10 +30,11 @@
         {
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this._btnChoiceOne = new System.Windows.Forms.Button();
-            this._btnChoiceTwo = new System.Windows.Forms.Button();
-            this._btnChoiceThree = new System.Windows.Forms.Button();
             this._btnChoiceFour = new System.Windows.Forms.Button();
+            this._btnChoiceThree = new System.Windows.Forms.Button();
+            this._btnChoiceTwo = new System.Windows.Forms.Button();
+            this._btnChoiceOne = new System.Windows.Forms.Button();
+            this._btnStart = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
@@ -59,23 +60,14 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Select the correct name";
             // 
-            // _btnChoiceOne
+            // _btnChoiceFour
             // 
-            this._btnChoiceOne.Location = new System.Drawing.Point(6, 38);
-            this._btnChoiceOne.Name = "_btnChoiceOne";
-            this._btnChoiceOne.Size = new System.Drawing.Size(135, 23);
-            this._btnChoiceOne.TabIndex = 0;
-            this._btnChoiceOne.Text = "button1";
-            this._btnChoiceOne.UseVisualStyleBackColor = true;
-            // 
-            // _btnChoiceTwo
-            // 
-            this._btnChoiceTwo.Location = new System.Drawing.Point(196, 38);
-            this._btnChoiceTwo.Name = "_btnChoiceTwo";
-            this._btnChoiceTwo.Size = new System.Drawing.Size(135, 23);
-            this._btnChoiceTwo.TabIndex = 1;
-            this._btnChoiceTwo.Text = "button2";
-            this._btnChoiceTwo.UseVisualStyleBackColor = true;
+            this._btnChoiceFour.Location = new System.Drawing.Point(196, 86);
+            this._btnChoiceFour.Name = "_btnChoiceFour";
+            this._btnChoiceFour.Size = new System.Drawing.Size(135, 23);
+            this._btnChoiceFour.TabIndex = 3;
+            this._btnChoiceFour.Text = "button4";
+            this._btnChoiceFour.UseVisualStyleBackColor = true;
             // 
             // _btnChoiceThree
             // 
@@ -86,20 +78,39 @@
             this._btnChoiceThree.Text = "button3";
             this._btnChoiceThree.UseVisualStyleBackColor = true;
             // 
-            // _btnChoiceFour
+            // _btnChoiceTwo
             // 
-            this._btnChoiceFour.Location = new System.Drawing.Point(196, 86);
-            this._btnChoiceFour.Name = "_btnChoiceFour";
-            this._btnChoiceFour.Size = new System.Drawing.Size(135, 23);
-            this._btnChoiceFour.TabIndex = 3;
-            this._btnChoiceFour.Text = "button4";
-            this._btnChoiceFour.UseVisualStyleBackColor = true;
+            this._btnChoiceTwo.Location = new System.Drawing.Point(196, 38);
+            this._btnChoiceTwo.Name = "_btnChoiceTwo";
+            this._btnChoiceTwo.Size = new System.Drawing.Size(135, 23);
+            this._btnChoiceTwo.TabIndex = 1;
+            this._btnChoiceTwo.Text = "button2";
+            this._btnChoiceTwo.UseVisualStyleBackColor = true;
+            // 
+            // _btnChoiceOne
+            // 
+            this._btnChoiceOne.Location = new System.Drawing.Point(6, 38);
+            this._btnChoiceOne.Name = "_btnChoiceOne";
+            this._btnChoiceOne.Size = new System.Drawing.Size(135, 23);
+            this._btnChoiceOne.TabIndex = 0;
+            this._btnChoiceOne.Text = "button1";
+            this._btnChoiceOne.UseVisualStyleBackColor = true;
+            // 
+            // _btnStart
+            // 
+            this._btnStart.Location = new System.Drawing.Point(12, 390);
+            this._btnStart.Name = "_btnStart";
+            this._btnStart.Size = new System.Drawing.Size(75, 23);
+            this._btnStart.TabIndex = 2;
+            this._btnStart.Text = "Begin";
+            this._btnStart.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 510);
+            this.Controls.Add(this._btnStart);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.pictureBox1);
             this.Name = "Form1";
@@ -118,6 +129,7 @@
         private System.Windows.Forms.Button _btnChoiceThree;
         private System.Windows.Forms.Button _btnChoiceTwo;
         private System.Windows.Forms.Button _btnChoiceOne;
+        private System.Windows.Forms.Button _btnStart;
     }
 }
 
