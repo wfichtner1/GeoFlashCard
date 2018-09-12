@@ -1,3 +1,3 @@
 # GeoFlashCard
-Geology Flash Card program\n
+Geology Flash Card program
 A simple program for flash card studying
