@@ -1,6 +1,6 @@
 ﻿namespace GeoFlashCard
 {
-    partial class Form1
+    partial class TriviaForm
     {
         /// <summary>
         /// Required designer variable.
@@ -216,7 +216,7 @@
             this._btnChoiceFive.Text = "button1";
             this._btnChoiceFive.UseVisualStyleBackColor = true;
             // 
-            // Form1
+            // TriviaForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -225,8 +225,8 @@
             this.Controls.Add(this._btnStart);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.pictureBox1);
-            this.Name = "Form1";
-            this.Text = "Form1";
+            this.Name = "TriviaForm";
+            this.Text = "Mineral Trivia";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.groupBox1.ResumeLayout(false);
             this.groupBox2.ResumeLayout(false);

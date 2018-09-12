@@ -9,9 +9,32 @@ namespace GeoFlashCard
 {
     class Mineral
     {
-        string Name;
-        string Compound;
-        Bitmap mineralImage;
+        //Fields
+        private string Name;
+        private string Compound;
+        private Bitmap mineralImage;
+        //Properties
+        public string _Name
+        {
+            get
+            {
+                return Name;
+            }
+        }
+        public string _Compound
+        {
+            get
+            {
+                return Compound;
+            }
+        }
+        public Bitmap _mineralImage
+        {
+            get
+            {
+                return mineralImage;
+            }
+        }
 
         public Mineral(string name, string compound, Bitmap image)
         {

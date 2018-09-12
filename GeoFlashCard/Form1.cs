@@ -10,11 +10,14 @@ using System.Windows.Forms;
 
 namespace GeoFlashCard
 {
-    public partial class Form1 : Form
+    public partial class TriviaForm : Form
     {
-        public Form1()
+        Dictionary<(string, string), Bitmap> mineralDictionary = new Dictionary<(string, string), Bitmap>();
+        public TriviaForm()
         {
             InitializeComponent();            
+            Mineral handMineral = new Mineral("hand", "AlMgDe", GeoFlashCard.Properties.Resources.handImage);
+            pictureBox1.Image = handMineral._mineralImage;
         }
     }
 }

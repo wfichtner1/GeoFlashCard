@@ -65,6 +65,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -78,6 +79,27 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1200px-NatCopper.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\digtmang %282%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1200px-Sulfur-sample.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Graphite-233436.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pyrrhotite-andrew-silver-867.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rawpyritecrystal-pyritecluster.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ww4a.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
