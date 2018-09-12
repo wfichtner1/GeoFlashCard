@@ -84,9 +84,6 @@
     <None Include="Resources\1200px-NatCopper.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\digtmang %282%29.jpg" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\1200px-Sulfur-sample.jpg" />
   </ItemGroup>
   <ItemGroup>
