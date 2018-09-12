@@ -14,8 +14,7 @@ namespace GeoFlashCard
     {
         public Form1()
         {
-            InitializeComponent();
-            
+            InitializeComponent();            
         }
     }
 }

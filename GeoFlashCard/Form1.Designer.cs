@@ -35,8 +35,20 @@
             this._btnChoiceTwo = new System.Windows.Forms.Button();
             this._btnChoiceOne = new System.Windows.Forms.Button();
             this._btnStart = new System.Windows.Forms.Button();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.button1 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
+            this.button4 = new System.Windows.Forms.Button();
+            this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this._btnChoiceEight = new System.Windows.Forms.Button();
+            this._btnChoiceSeven = new System.Windows.Forms.Button();
+            this._btnChoiceSix = new System.Windows.Forms.Button();
+            this._btnChoiceFive = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.groupBox1.SuspendLayout();
+            this.groupBox2.SuspendLayout();
+            this.groupBox3.SuspendLayout();
             this.SuspendLayout();
             // 
             // pictureBox1
@@ -49,11 +61,12 @@
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.groupBox2);
             this.groupBox1.Controls.Add(this._btnChoiceFour);
             this.groupBox1.Controls.Add(this._btnChoiceThree);
             this.groupBox1.Controls.Add(this._btnChoiceTwo);
             this.groupBox1.Controls.Add(this._btnChoiceOne);
-            this.groupBox1.Location = new System.Drawing.Point(217, 352);
+            this.groupBox1.Location = new System.Drawing.Point(93, 356);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(337, 142);
             this.groupBox1.TabIndex = 1;
@@ -105,11 +118,110 @@
             this._btnStart.Text = "Begin";
             this._btnStart.UseVisualStyleBackColor = true;
             // 
+            // groupBox2
+            // 
+            this.groupBox2.Controls.Add(this.button1);
+            this.groupBox2.Controls.Add(this.button2);
+            this.groupBox2.Controls.Add(this.button3);
+            this.groupBox2.Controls.Add(this.button4);
+            this.groupBox2.Location = new System.Drawing.Point(337, 4);
+            this.groupBox2.Name = "groupBox2";
+            this.groupBox2.Size = new System.Drawing.Size(337, 142);
+            this.groupBox2.TabIndex = 4;
+            this.groupBox2.TabStop = false;
+            this.groupBox2.Text = "Select the correct name";
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(196, 86);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(135, 23);
+            this.button1.TabIndex = 3;
+            this.button1.Text = "button4";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(6, 86);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(135, 23);
+            this.button2.TabIndex = 2;
+            this.button2.Text = "button3";
+            this.button2.UseVisualStyleBackColor = true;
+            // 
+            // button3
+            // 
+            this.button3.Location = new System.Drawing.Point(196, 38);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(135, 23);
+            this.button3.TabIndex = 1;
+            this.button3.Text = "button2";
+            this.button3.UseVisualStyleBackColor = true;
+            // 
+            // button4
+            // 
+            this.button4.Location = new System.Drawing.Point(6, 38);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(135, 23);
+            this.button4.TabIndex = 0;
+            this.button4.Text = "button1";
+            this.button4.UseVisualStyleBackColor = true;
+            // 
+            // groupBox3
+            // 
+            this.groupBox3.Controls.Add(this._btnChoiceEight);
+            this.groupBox3.Controls.Add(this._btnChoiceSeven);
+            this.groupBox3.Controls.Add(this._btnChoiceSix);
+            this.groupBox3.Controls.Add(this._btnChoiceFive);
+            this.groupBox3.Location = new System.Drawing.Point(451, 356);
+            this.groupBox3.Name = "groupBox3";
+            this.groupBox3.Size = new System.Drawing.Size(337, 142);
+            this.groupBox3.TabIndex = 3;
+            this.groupBox3.TabStop = false;
+            this.groupBox3.Text = "Select the correct compound";
+            // 
+            // _btnChoiceEight
+            // 
+            this._btnChoiceEight.Location = new System.Drawing.Point(196, 86);
+            this._btnChoiceEight.Name = "_btnChoiceEight";
+            this._btnChoiceEight.Size = new System.Drawing.Size(135, 23);
+            this._btnChoiceEight.TabIndex = 3;
+            this._btnChoiceEight.Text = "button4";
+            this._btnChoiceEight.UseVisualStyleBackColor = true;
+            // 
+            // _btnChoiceSeven
+            // 
+            this._btnChoiceSeven.Location = new System.Drawing.Point(6, 86);
+            this._btnChoiceSeven.Name = "_btnChoiceSeven";
+            this._btnChoiceSeven.Size = new System.Drawing.Size(135, 23);
+            this._btnChoiceSeven.TabIndex = 2;
+            this._btnChoiceSeven.Text = "button3";
+            this._btnChoiceSeven.UseVisualStyleBackColor = true;
+            // 
+            // _btnChoiceSix
+            // 
+            this._btnChoiceSix.Location = new System.Drawing.Point(196, 38);
+            this._btnChoiceSix.Name = "_btnChoiceSix";
+            this._btnChoiceSix.Size = new System.Drawing.Size(135, 23);
+            this._btnChoiceSix.TabIndex = 1;
+            this._btnChoiceSix.Text = "button2";
+            this._btnChoiceSix.UseVisualStyleBackColor = true;
+            // 
+            // _btnChoiceFive
+            // 
+            this._btnChoiceFive.Location = new System.Drawing.Point(6, 38);
+            this._btnChoiceFive.Name = "_btnChoiceFive";
+            this._btnChoiceFive.Size = new System.Drawing.Size(135, 23);
+            this._btnChoiceFive.TabIndex = 0;
+            this._btnChoiceFive.Text = "button1";
+            this._btnChoiceFive.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 510);
+            this.Controls.Add(this.groupBox3);
             this.Controls.Add(this._btnStart);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.pictureBox1);
@@ -117,6 +229,8 @@
             this.Text = "Form1";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.groupBox1.ResumeLayout(false);
+            this.groupBox2.ResumeLayout(false);
+            this.groupBox3.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -130,6 +244,16 @@
         private System.Windows.Forms.Button _btnChoiceTwo;
         private System.Windows.Forms.Button _btnChoiceOne;
         private System.Windows.Forms.Button _btnStart;
+        private System.Windows.Forms.GroupBox groupBox2;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.GroupBox groupBox3;
+        private System.Windows.Forms.Button _btnChoiceEight;
+        private System.Windows.Forms.Button _btnChoiceSeven;
+        private System.Windows.Forms.Button _btnChoiceSix;
+        private System.Windows.Forms.Button _btnChoiceFive;
     }
 }
 
